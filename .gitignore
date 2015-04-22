@@ -8,3 +8,4 @@ vendor/phpunit
 vendor/sebastian
 vendor/slim
 vendor/symfony
+bootstrap-config.php

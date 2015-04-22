@@ -1,4 +1,4 @@
-<?php namespace zephinzer\Todos\Exceptions;
+<?php namespace zephinzer\Exceptions;
 class CustomException extends \Exception {
 	protected $message = 'Unknown exception';     // Exception message
     private   $string;                            // Unknown

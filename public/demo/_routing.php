@@ -1,4 +1,4 @@
-<?php namespace zephinzer\Todos\API\Agendas\Routing;
+<?php namespace zephinzer\Application\API\Agendas\Routing;
 /**
  * This script requires an $application variable to be predefined which
  * is of type \Slim\Slim.

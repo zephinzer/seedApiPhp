@@ -1,4 +1,4 @@
-<?php namespace zephinzer\Todos\Utility;
+<?php namespace zephinzer\Utility;
 
 class Functions {
 	/**

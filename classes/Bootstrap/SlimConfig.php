@@ -1,8 +1,12 @@
 <?php namespace zephinzer\Bootstrap;
+
+
 /**
  * This class holds configuration information for the Slim microframework.
  * Additional information can be found at the website stated below:
  * @see http://docs.slimframework.com/
+ * 
+ * 
  */
 class SlimConfig {
 	/**
@@ -10,21 +14,21 @@ class SlimConfig {
 	 * Begin user configuration region
 	 * --------------------------------------------------------------------
 	 */
-	const APP_MODE = 'DEV';
+	const APP_MODE = ZEPHINZER_BOOSTRAP_SLIM_CONFIG_APP_MODE;
 	const COOKIES_CIPHER = MCRYPT_RIJNDAEL_256;
 	const COOKIES_CIPHER_MODE = MCRYPT_MODE_CBC;
-	const COOKIES_DOMAIN = 'api.nyajtodo.com';
+	const COOKIES_DOMAIN = ZEPHINZER_BOOSTRAP_SLIM_CONFIG_DOMAIN;	//'api.nyajtodo.com';
 	const COOKIES_ENCRYPT = TRUE;
 	const COOKIES_HTTPONLY = TRUE;
-	const COOKIES_PATH = '/';
-	const COOKIES_TTL = '20 minutes';
-	const COOKIES_SECRET = 'dfb7a5da5b547d2ae057d4fb696e0873fcb5219f';
+	const COOKIES_PATH = ZEPHINZER_BOOSTRAP_SLIM_CONFIG_URLROOT;
+	const COOKIES_TTL = ZEPHINZER_BOOSTRAP_SLIM_CONFIG_COOKIES_TTL;
+	const COOKIES_SECRET = ZEPHINZER_BOOSTRAP_SLIM_CONFIG_COOKIES_SECRET;
 	const COOKIES_SECURE = TRUE;
-	const DEBUG_MODE = 'true';
-	const HTTP_VERSION = '1.1';
-	const LOG_ENABLED = TRUE;
-	const LOG_LEVEL = \Slim\Log::DEBUG;
-	const TEMPLATES_PATH = './';
+	const DEBUG_MODE = ZEPHINZER_BOOSTRAP_SLIM_CONFIG_DEBUG;
+	const HTTP_VERSION = ZEPHINZER_BOOSTRAP_SLIM_CONFIG_HTTP_VERSION;
+	const LOG_ENABLED = ZEPHINZER_BOOSTRAP_SLIM_CONFIG_LOG_ENABLED;
+	const LOG_LEVEL = ZEPHINZER_BOOSTRAP_SLIM_CONFIG_LOG_LEVEL;
+	const TEMPLATES_PATH = ZEPHINZER_BOOSTRAP_SLIM_CONFIG_TEMPLATES_PATH;
 	/**
 	 * --------------------------------------------------------------------
 	 * Finish user configuration region

@@ -15,19 +15,19 @@ class DB implements DBInterface {
  	/**
 	 * Database username
 	 */
-	const USER = 'nyajtodo_user';
+	const USER = ZEPHINZER_BOOTSTRAP_DB_USERNAME;
 	/**
 	 * Database password
 	 */
-	const PASS = 'nyajtodo';
+	const PASS = ZEPHINZER_BOOTSTRAP_DB_PASSWORD;
 	/**
 	 * Database host IP address/hostname
 	 */
-	const HOST = '127.0.0.1';
+	const HOST = ZEPHINZER_BOOTSTRAP_DB_HOST;
 	/**
 	 * Database name
 	 */
-	const NAME = 'nyajtodo';
+	const NAME = ZEPHINZER_BOOTSTRAP_DB_NAME;
 /**
  * --------------------------------------------------------------------------
  * </CONSTANTS>

@@ -1,4 +1,4 @@
-<?php namespace zephinzer\Todos\API\Demo;
+<?php namespace zephinzer\Application\API\Demo;
 require_once __DIR__.'/../../../classes/Bootstrap/APIEndPoint.php';
 
 

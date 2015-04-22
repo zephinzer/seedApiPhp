@@ -1,4 +1,4 @@
-<?php namespace zephinzer\Todos;
+<?php namespace zephinzer\Application;
 require_once __DIR__.'/classes/SlimCustomViews/Prototype.php';
 
 function configureRouting($application) {

@@ -1,4 +1,4 @@
-<?php namespace zephinzer\Todos\Exceptions;
+<?php namespace zephinzer\Exceptions;
 require_once __DIR__.'/CustomException.php';
 
 class MissingArguments extends CustomException {
