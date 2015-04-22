@@ -1,13 +1,13 @@
-<?php namespace Nyaj\Todos\API\Demo;
+<?php namespace zephinzer\Todos\API\Demo;
 require_once __DIR__.'/../../../classes/Bootstrap/APIEndPoint.php';
 
 
-class MethodsPut extends \Nyaj\Bootstrap\APIEndPoint {
+class MethodsPut extends \zephinzer\Bootstrap\APIEndPoint {
 	public function __construct($inputData = NULL) {
 		echo 'MethodsPut: '.PHP_EOL;
 		echo json_encode($this);
-		$inputData[\Nyaj\Bootstrap\APIEndPoint::FLAG_BREAKPOINT] = 
-			\Nyaj\Bootstrap\APIEndPoint::STAGE_GETOUPUT;
+		$inputData[\zephinzer\Bootstrap\APIEndPoint::FLAG_BREAKPOINT] = 
+			\zephinzer\Bootstrap\APIEndPoint::STAGE_GETOUPUT;
 		parent::__construct($inputData);
 	}
 	

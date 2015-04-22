@@ -1,0 +1,10 @@
+vendor/autoload.php
+vendor/bin
+vendor/composer
+vendor/doctrine
+vendor/phpdocumentor
+vendor/phpspec
+vendor/phpunit
+vendor/sebastian
+vendor/slim
+vendor/symfony

@@ -1,4 +1,4 @@
-<?php namespace Nyaj\Todos\Utility;
+<?php namespace zephinzer\Todos\Utility;
 
 class Functions {
 	/**

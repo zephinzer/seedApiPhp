@@ -1,4 +1,4 @@
-<?php namespace Nyaj\Bootstrap;
+<?php namespace zephinzer\Bootstrap;
 interface DBInterface {
 	/**
 	 * Return solitary instance of child class

@@ -1,4 +1,4 @@
-<?php namespace Nyaj\Todos;
+<?php namespace zephinzer\Todos;
 require_once __DIR__.'/classes/SlimCustomViews/Prototype.php';
 
 function configureRouting($application) {

@@ -1,4 +1,4 @@
-<?php namespace Nyaj\Bootstrap;
+<?php namespace zephinzer\Bootstrap;
 /**
  * This class holds configuration information for the Slim microframework.
  * Additional information can be found at the website stated below:

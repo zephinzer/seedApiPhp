@@ -1,4 +1,4 @@
-<?php namespace Nyaj\Bootstrap;
+<?php namespace zephinzer\Bootstrap;
 require_once __DIR__.'/DBInterface.php';
 
 /**

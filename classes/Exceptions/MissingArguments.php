@@ -1,4 +1,4 @@
-<?php namespace Nyaj\Todos\Exceptions;
+<?php namespace zephinzer\Todos\Exceptions;
 require_once __DIR__.'/CustomException.php';
 
 class MissingArguments extends CustomException {

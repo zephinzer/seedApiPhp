@@ -1,4 +1,4 @@
-<?php namespace Nyaj\Bootstrap\SlimCustomViews;
+<?php namespace zephinzer\Bootstrap\SlimCustomViews;
 
 class Prototype extends \Slim\View {
 	/**
